@@ -79,7 +79,6 @@ export default function Sidebar() {
                     <div className="bg-white py-2 collapse-inner rounded">
                         <Link className="collapse-item" to="/create">Create</Link>
                         <Link className="collapse-item" to="/read">Read / View</Link>
-                        <Link className="collapse-item" to="/update">Update data</Link>
                     </div>
                 </div>
             </li>

@@ -43,9 +43,6 @@ function App() {
                 <Route excat path="/read">
                   <Read />
                 </Route>
-                <Route excat path="/update">
-                  <Update />
-                </Route>
               </Switch>
             </div>
             <Footer />

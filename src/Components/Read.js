@@ -10,6 +10,7 @@ function Read() {
       .get("https://61481f4a65467e0017384cde.mockapi.io/usersData")
       .then((resp) => {
         setApiData(resp.data);
+        // console.log(resp.data)
       });
   }, []);
 
